@@ -1,0 +1,36 @@
+{
+  "name": "pikapika",
+  "version": "0.0.1",
+  "description": "jQuery plugin for Everything Rainbow",
+  "keywords": [
+    "jquery-plugin"
+  ],
+  "homepage": "https://github.com/esehara/jquery-pikapika",
+  "author": {
+    "name": "esehara shigeo",
+    "email": "esehara@gmail.com",
+    "url": "https://github.com/esehara"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esehara/jquery-pikapika.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.5.1",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.8.0",
+    "time-grunt": "~0.3.2",
+    "load-grunt-tasks": "~0.6.0",
+    "jshint-stylish": "~0.2.0",
+    "grunt": "~0.4.5"
+  }
+}
