@@ -3,9 +3,12 @@
 * Copyright (c) 2014 esehara shigeo; Licensed MIT */
 (function ($) {
   var previousColor = null;
-  var generateRandomColor = function() {
+  var generateRandomColor = function(options) {
+    var colormul = function() {
+      return 256 / options.colorstep;
+    };
     var seedColor = function() {
-      return (Math.floor(Math.random() * 9) * 32).toString(16);
+      return (Math.floor(Math.random() * colormul()) * options.colorstep).toString(16);
     };
     var generateColorString = function() {
       var r = seedColor();
@@ -26,15 +29,18 @@
 
   var setRainbowInterval = function(elem, options) {
     setInterval(function() {
-      $(elem).css(options.css, generateRandomColor()); 
+      $(elem).css(options.css, generateRandomColor(options)); 
     }, options.interval);
   };
 
-  $.pikapika.options = {
-    interval: 100,
-    css: 'color'
+  $.pikapika = {
+    options: {
+      interval: 100,
+      colorstep: 32,
+      css: 'color'
+    }
   };
-  
+
   // Collection method.
   $.fn.pikapika = function (options) {
     options = $.extend({}, $.pikapika.options, options);

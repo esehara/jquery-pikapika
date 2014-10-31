@@ -1,5 +1,5 @@
 /*
- * jQuery Rainbow
+ * jQuery PikaPika
  *
  * Copyright (c) 2014 esehara shigeo
  * Licensed under the MIT license.
