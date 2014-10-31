@@ -1,6 +1,7 @@
 {
   "name": "jquery-pikapika",
-  "version": "v0.0.1",
+  "ignore": [],
+  "version": "0.0.1",
   "devDependencies": {
     "qunit": "~1.12.0",
     "jquery": "latest"
