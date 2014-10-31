@@ -2,7 +2,7 @@
 
 Everythink PikaPikalize !!
 
-- [example for GitHub Pages](https://github.com/esehara/jquery-pikapika)
+- [example for GitHub Pages](http://esehara.github.io/jquery-pikapika/)
 
 ## Getting Started
 
