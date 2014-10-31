@@ -1,4 +1,4 @@
-# jQuery Rainbow
+# jQuery PikaPika!!
 
 Everythink jQuery String Rainbow !! Pika Pika !!
 
@@ -6,17 +6,17 @@ Everythink jQuery String Rainbow !! Pika Pika !!
 
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.githubusercontent.com/esehara/jquery-jquery-rainbow/master/dist/jquery.jquery-rainbow.min.js
-[max]: https://raw.githubusercontent.com/esehara/jquery-jquery-rainbow/master/dist/jquery.jquery-rainbow.js
+[min]: https://raw.githubusercontent.com/esehara/jquery-pikapika/master/dist/jquery.jquery-rainbow.min.js
+[max]: https://raw.githubusercontent.com/esehara/jquery-pikapika/master/dist/jquery.jquery-rainbow.js
 
 In your web page:
 
 ```html
 <script src="jquery.js"></script>
-<script src="dist/jquery-rainbow.min.js"></script>
+<script src="dist/jquery.pikapika.min.js"></script>
 <script>
 jQuery(function($) {
-  $.awesome(); // "awesome"
+  $('body').pikapika();
 });
 </script>
 ```
