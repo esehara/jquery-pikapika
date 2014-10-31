@@ -1,6 +1,8 @@
 # jQuery PikaPika!!
 
-Everythink jQuery String Rainbow !! Pika Pika !!
+Everythink PikaPikalize !!
+
+- [example for GitHub Pages](https://github.com/esehara/jquery-pikapika)
 
 ## Getting Started
 
