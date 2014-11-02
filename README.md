@@ -54,3 +54,11 @@ $('#background-pikapika').pikapika({css: 'background-color'});
 
 $('#more-pikapika-color').pikapika({colorstep: 16});
 ```
+
+### color range
+
+```javascript
+// default = {range_r: [0, 255], range_g: [0, 255], range_b: [0, 255]}
+
+$('#pikapika-red-color').pikapika({range_r: [128, 255], range_g: [0, 64], range_b: [0, 64]}); 
+```
