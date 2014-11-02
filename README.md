@@ -8,8 +8,8 @@ Everything PikaPikalize !!
 
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.githubusercontent.com/esehara/jquery-pikapika/master/dist/jquery.jquery-rainbow.min.js
-[max]: https://raw.githubusercontent.com/esehara/jquery-pikapika/master/dist/jquery.jquery-rainbow.js
+[min]: https://raw.githubusercontent.com/esehara/jquery-pikapika/master/dist/jquery.pikapika.min.js
+[max]: https://raw.githubusercontent.com/esehara/jquery-pikapika/master/dist/jquery.pikapika.js
 
 In your web page:
 
