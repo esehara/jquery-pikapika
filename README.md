@@ -33,7 +33,7 @@ jQuery(function($) {
 // default = 100
 
 $('#this-is-very-speedy').pikapika({interval: 50});
-``
+```
 
 ### Css Change
 
