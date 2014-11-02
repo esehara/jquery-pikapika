@@ -2,7 +2,7 @@
   "name": "jquery-rainbow",
   "title": "jQuery Rainbow",
   "description": "Everythink jQuery String Rainbow !! Pika Pika !!",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "jquery-rainbow",
   "author": {
     "name": "esehara shigeo",
