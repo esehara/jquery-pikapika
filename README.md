@@ -25,7 +25,7 @@ jQuery(function($) {
 
 ## Examples
 
-### Change Interval
+### Interval
 
 
 ```javascript
@@ -35,7 +35,7 @@ jQuery(function($) {
 $('#this-is-very-speedy').pikapika({interval: 50});
 ```
 
-### Css Change
+### Css
 
 ```javascript
 
