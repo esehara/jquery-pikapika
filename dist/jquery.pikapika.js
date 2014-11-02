@@ -1,24 +1,27 @@
-/*! pikapika - v0.0.1 - 2014-11-01
+/*! pikapika - v0.0.1 - 2014-11-02
 * https://github.com/esehara/jquery-pikapika
 * Copyright (c) 2014 esehara shigeo; Licensed MIT */
 (function ($) {
   var previousColor = null;
   var generateRandomColor = function(options) {
-    var colormul = function() {
-      return 256 / options.colorstep;
+    var colormul = function(rangeLength) {
+      return rangeLength / options.colorstep;
     };
-    var seedColor = function() {
-      return (Math.floor(Math.random() * colormul()) * options.colorstep).toString(16);
+    var seedColor = function(range) {
+      var rangeLength = range[1] - range[0];
+      return (Math
+        .floor((Math.random() * colormul(rangeLength)) * options.colorstep) + range[0])
+        .toString(16);
     };
-    var generateColorString = function() {
-      var r = seedColor();
-      var g = seedColor();
-      var b = seedColor();
+    var generateColorString = function(options) {
+      var r = seedColor(options.range_r);
+      var g = seedColor(options.range_g);
+      var b = seedColor(options.range_b);
       return '#' + r + g + b;
     };
-    var colorString = generateColorString();
+    var colorString = generateColorString(options);
     while (colorString === previousColor) {
-      colorString = generateColorString();
+      colorString = generateColorString(options);
     }
     if (previousColor) {
       previousColor = colorString;
@@ -37,7 +40,10 @@
     options: {
       interval: 100,
       colorstep: 32,
-      css: 'color'
+      css: 'color',
+      range_r: [0, 255],
+      range_g: [0, 255],
+      range_b: [0, 255]
     }
   };
 
