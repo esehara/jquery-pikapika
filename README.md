@@ -23,11 +23,34 @@ jQuery(function($) {
 </script>
 ```
 
-## Documentation
-_(Coming soon)_
-
 ## Examples
-_(Coming soon)_
 
-## Release History
-_(Nothing yet)_
+### Change Interval
+
+
+```javascript
+
+// default = 100
+
+$('#this-is-very-speedy').pikapika({interval: 50});
+``
+
+### Css Change
+
+```javascript
+
+// default = 'color'
+
+$('#background-pikapika').pikapika({css: 'background-color'});
+```
+
+### n separate choice color
+
+```javascript
+
+// default = 32
+// this option is n color random choice
+// example, set 32, choice color in [0, 32, 64, 96 ... 256]
+
+$('#more-pikapika-color').pikapika({colorstep: 16});
+```
