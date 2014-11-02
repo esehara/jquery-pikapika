@@ -1,6 +1,6 @@
 # jQuery PikaPika!!
 
-Everythink PikaPikalize !!
+Everything PikaPikalize !!
 
 - [example for GitHub Pages](http://esehara.github.io/jquery-pikapika/)
 
